@@ -1,11 +1,11 @@
 from aws_cdk import (
     # Duration,
     Stack,
-    CodePipeline,
-    CodePipelineSource,
-    ShellStep
+   
+    # aws_sqs as sqs,
 )
 from constructs import Construct
+from aws_cdk.pipelines import CodePipeline, CodePipelineSource, ShellStep
 
 class MyPipelineStack(Stack):
 
